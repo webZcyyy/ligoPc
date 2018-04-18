@@ -1,0 +1,123 @@
+.topHead{
+    width: 100%;
+    height: 110px;
+    .topHeadNav{
+        height: 30px;
+        padding: 0 108px;
+        line-height: 30px;
+        .addressIcon{
+            display: inline-block;
+            width: 9px;
+            height: 12px;
+            margin-top: 6px;
+
+        }
+        .mainCity{
+            position: relative;
+            top: 6px;
+            left: 126px;
+            color: #272D2D;
+            font-size: 12px;
+            font-family: PingFangSC-Regular;
+            line-height: 17px;
+            text-align: left;
+        }
+        .changeCity {
+            position: relative;
+            top: 6px;
+            left: 128px;
+            color: #272D2D;
+            font-size: 12px;
+            font-family: PingFangSC-Regular;
+            line-height: 17px;
+            text-align: left;
+        }
+        .otherCity{
+            position: relative;
+            left: 213px;
+            top: 6px;
+            width: 90px;
+            height: 17px;
+            line-height: 17px;
+            color: rgba(155, 155, 155, 1);
+            font-size: 12px;
+            text-align: left;
+            font-family: PingFangSC-Regular;
+            li{
+                float: left;
+                margin: 0 2px;
+            }
+        }
+        .christine{
+            position: relative;
+            left: 318px;
+            top: 6px;
+            width: 50px;
+            height: 17px;
+            line-height: 17px;
+            color: rgba(38, 169, 108, 1);
+            font-size: 12px;
+            text-align: left;
+            font-family: PingFangSC-Regular;
+        }
+        .headOptions{
+            line-height: 17px;
+            color: rgba(155, 155, 155, 1);
+            font-size: 12px;
+            text-align: left;
+            font-family: PingFangSC-Regular;
+            li{
+                float: left;
+                position: relative;
+                top: 6px;
+            }
+            li:nth-child(1){
+                position: absolute;
+                left: 1170px;
+            }
+            li:nth-child(2){
+                position: absolute;
+                left: 1222px;
+            }
+            li:nth-child(3){
+                position: absolute;
+                left: 1286px;
+            }
+
+        }
+    }
+    .topHeadSearch{
+        height: 80px;
+        padding: 0 108px;        
+        background: #26A96C;
+        .logoIcon{
+            float: left;
+            display: inline-block;
+            position: relative;
+            left: 109px;
+            top: 26px;
+            width: 35px;
+            height: 35px;
+            text-align: center;
+            line-height: 35px;
+            border: 1px solid #fff;
+        }
+        .logoInfo{
+            width: 120px;
+            height: 40px;
+            float: left;
+            position: relative;
+            left: 146px;
+            .logoTitle{
+                line-height: 24px;
+                color: rgba(255, 255, 255, 1);
+                font-size: 20px;
+                text-align: left;
+                font-family: zhimang-xing;
+
+            }
+
+            
+        }
+    }
+}
